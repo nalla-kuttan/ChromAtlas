@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- A: legs slope 1:2, horizontal leg width 40; crossbar = horizon y172–196; sun r18 rises from the horizon -->
+  <path fill-rule="evenodd" d="M128 28 L228 228 L188 228 L172 196 L84 196 L68 228 L28 228 Z M128 108 L96 172 L160 172 Z"/>
+  <path d="M110 172 A18 18 0 0 1 146 172 Z"/>
+</svg>

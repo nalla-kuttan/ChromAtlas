@@ -1,0 +1,41 @@
+{
+  "brand": "ChromAtlas",
+  "tagline": "Your camera roll, as an atlas of places and light.",
+  "brief": "An iOS app that rebuilds your photo library on-device as a globe of places and a colour wheel of moods — golden hour, blue hour, every trip. Private by design: no network, no account. The mark must feel luminous and precise, work as an iOS icon and at 16 px, and stand apart from photo-app pinwheels and travel pins.",
+  "adjectives": ["luminous", "precise", "private", "wandering", "cinematic"],
+  "criteria": "Success: one idea joining places and light; distinct from pinwheels, apertures, pins and grid globes; recognisable at 16 px; works in one colour and reversed; carries the app's amber accent.",
+  "industry": "consumer-app",
+  "mockups": ["app-icon", "social", "website", "favicon-tab", "sticker", "tshirt"],
+  "nav": ["Atlas", "Colour wheel", "Privacy"],
+  "brand_color": "#3E6BFF",
+  "tile_color": "#0C0E12",
+  "greyscale": false,
+  "final": true,
+  "deck_title": "final identity",
+  "designer": "ChromAtlas",
+  "concepts": [
+    {
+      "name": "Terminator",
+      "symbol": "../kit/master/symbol-color.svg",
+      "lockup": "../kit/master/lockup-horizontal-on-light.svg",
+      "stacked": "../kit/master/lockup-stacked-on-light.svg",
+      "symbol_on_tile": "../kit/master/symbol-color.svg",
+      "symbol_on_dark": "../kit/master/symbol-color.svg",
+      "lockup_on_dark": "../kit/master/lockup-horizontal-on-dark.svg",
+      "stacked_on_dark": "../kit/master/lockup-stacked-on-dark.svg",
+      "idea": "A globe crossed by the terminator — the moving line between day and night where golden hour and blue hour happen — tilted to Earth's 23.4° axis.",
+      "rationale": [
+        "Places (the globe) and light (day/night) in one shape: the app's whole promise",
+        "Golden Hour amber is the app's existing accent; Blue Hour holds 4.4:1 on both dark and white",
+        "Two solid pieces and one band: survives 16 px, one colour and reversal",
+        "Wordmark constructed from geometry: flat-apex A and M vertex, wide caps tracking from the share card"
+      ]
+    }
+  ],
+  "recommendation": "Roll out the Terminator identity: app icon (installed, with dark and tinted variants), App Store and share card first.",
+  "next_steps": [
+    "Run a professional trademark search on the mark and name",
+    "Swap the share card's text title for the constructed wordmark",
+    "Use the terminator band as a motion cue (it sweeps across while indexing)"
+  ]
+}

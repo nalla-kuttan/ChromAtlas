@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049151F2D6217E8A8E4DBCDC /* TripModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843E25920706A2D097735FB /* TripModels.swift */; };
+		065680048105BC8B79985B19 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDB524879A9A3DFBFB12378 /* AppModel.swift */; };
+		078A1E9E546915E2E3BC4B3D /* LibraryIndexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6041E77863CFD22D967ACC8 /* LibraryIndexer.swift */; };
+		1E1CB10BFEE740289D78D7F2 /* GlobeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380989BD6FCFEF25895A841D /* GlobeView.swift */; };
+		1ED77C80759A0FA123B8B645 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9DD9B345CEFFDD8E6D608F /* RootView.swift */; };
+		2935ED2C1D5214732C659D04 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8706EF3F99498176E7578D5 /* Countries.swift */; };
+		2AFC3D3F961AC2141719B0C9 /* DemoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22CE8FF73B5F8D637B8A8F0 /* DemoLibrary.swift */; };
+		2CA36B23A12F8A80C65F4971 /* SolarCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA903FCCA4FB8B65E0ADA955 /* SolarCalculator.swift */; };
+		334CF3D4253B758C65B3AD00 /* TimelineScrubber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7253EEE9D05A35DC1FEE30E /* TimelineScrubber.swift */; };
+		3808E254D98AFE7207C54BA4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB16FDEDF0EC5B0F4BEDB819 /* Theme.swift */; };
+		3CCFAA22124B768CFE66CC0F /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78EA37EB629B449704608A9 /* ShareCardView.swift */; };
+		516758EF35A3BF7F8E2168EC /* AssetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F0D0AD08CD608A6D047563 /* AssetDetailView.swift */; };
+		53C8FF614112B10A6A557B98 /* GeoMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB05A04E7A5EDF84B8F08DF5 /* GeoMath.swift */; };
+		5D20DA2ABBF00D3F513F0A5B /* PhotoGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884D8ACBFDFE1900365EB286 /* PhotoGrid.swift */; };
+		6356B1225ABE851BB6B286A2 /* ChromAtlasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84C287647945189FE3BECFF /* ChromAtlasTests.swift */; };
+		785793C775D1F03DFF7497F2 /* TripEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2C05682C0389B8795F3351 /* TripEngine.swift */; };
+		879C45F09913B7480331AB10 /* AssetRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0F3D1F9B06363667A644F8 /* AssetRecord.swift */; };
+		8B6DCD1C410544621303F803 /* SQLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB2827D5A4C51DDF80654B /* SQLite.swift */; };
+		9731DF2A6837485E55065A13 /* cities_seed.csv in Resources */ = {isa = PBXBuildFile; fileRef = FB9CE3DCAACCB089928CB93C /* cities_seed.csv */; };
+		A023B0637EB78FDC82BAADE8 /* ChromaticZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33CDE9989C04A7BAD70F93B /* ChromaticZone.swift */; };
+		A141C17AC4910DEF55601FB4 /* ChromAtlasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF45698873BF9EEAED5058 /* ChromAtlasApp.swift */; };
+		ABBC5B5C4E389809B61AB34B /* OKLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCEEAE55EFC7544FC2180E8 /* OKLab.swift */; };
+		AEF1CC6C9D2833107A64AE61 /* QueryEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B2A9CA9FA0F7FE35DB451 /* QueryEngine.swift */; };
+		B00C15B29A82A194B6BC0AF3 /* ColorExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD603932E320938999DA25D /* ColorExtractor.swift */; };
+		B2525362C74C016F91D6FE9C /* EnvironmentPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD22E71C71667D75818281 /* EnvironmentPills.swift */; };
+		B369D01D9346112CB8A147BD /* GeoDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4913B4BECDFF4FDA0346BCD /* GeoDatabase.swift */; };
+		B9DFF5CBBB7E7E0CD0AC958F /* AssetThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1C0FB6FD226728B299F4BB /* AssetThumbnail.swift */; };
+		BECE5697EC4A5247B95B6046 /* AssetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973B0C8BE570400FC3BEA0B4 /* AssetStore.swift */; };
+		C1BDB51DB28139E7A9B4EC26 /* GlobeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76BC3E0EA462FAA450922E2 /* GlobeScene.swift */; };
+		C2830260A1E54B4153651C94 /* FilterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E666E77A27EC1B701437C5 /* FilterState.swift */; };
+		C729A6553D67FDD0B0E23B00 /* ColorWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59A4178A35E69A0810AC670 /* ColorWheelView.swift */; };
+		CE487C2955FB52B7572EEFC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB343C1053A43807CFC45CA /* Assets.xcassets */; };
+		D02CED4DDD5822A3FB2AB0FF /* MilestoneHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F606C095AC17250338F709 /* MilestoneHUD.swift */; };
+		D0DBA3BECFD124F7884A753B /* WorldOutlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD91684121ADE97EA40D83C /* WorldOutlines.swift */; };
+		E6839E3312AE730DF3E5A828 /* MapModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D429AACC4137262253EDBA /* MapModeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DDC9859BCAA25B48496E8D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B6139850966FDF67D1E95FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E2A1AFDCA6D33546740CBF3;
+			remoteInfo = ChromAtlas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0772F9067A55711EB8AA217B /* ChromAtlas.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ChromAtlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0843E25920706A2D097735FB /* TripModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModels.swift; sourceTree = "<group>"; };
+		1DB343C1053A43807CFC45CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E2C05682C0389B8795F3351 /* TripEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripEngine.swift; sourceTree = "<group>"; };
+		2DDB524879A9A3DFBFB12378 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		30AF45698873BF9EEAED5058 /* ChromAtlasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromAtlasApp.swift; sourceTree = "<group>"; };
+		380989BD6FCFEF25895A841D /* GlobeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeView.swift; sourceTree = "<group>"; };
+		3B0F3D1F9B06363667A644F8 /* AssetRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetRecord.swift; sourceTree = "<group>"; };
+		3B9DD9B345CEFFDD8E6D608F /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		4E4B2A9CA9FA0F7FE35DB451 /* QueryEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryEngine.swift; sourceTree = "<group>"; };
+		4ED33014F59AB0D230DFC4F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		53F606C095AC17250338F709 /* MilestoneHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneHUD.swift; sourceTree = "<group>"; };
+		59E666E77A27EC1B701437C5 /* FilterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterState.swift; sourceTree = "<group>"; };
+		62AB2827D5A4C51DDF80654B /* SQLite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLite.swift; sourceTree = "<group>"; };
+		884D8ACBFDFE1900365EB286 /* PhotoGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGrid.swift; sourceTree = "<group>"; };
+		973B0C8BE570400FC3BEA0B4 /* AssetStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetStore.swift; sourceTree = "<group>"; };
+		A1F0D0AD08CD608A6D047563 /* AssetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetDetailView.swift; sourceTree = "<group>"; };
+		A4913B4BECDFF4FDA0346BCD /* GeoDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDatabase.swift; sourceTree = "<group>"; };
+		A59A4178A35E69A0810AC670 /* ColorWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWheelView.swift; sourceTree = "<group>"; };
+		AA903FCCA4FB8B65E0ADA955 /* SolarCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarCalculator.swift; sourceTree = "<group>"; };
+		ABD91684121ADE97EA40D83C /* WorldOutlines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldOutlines.swift; sourceTree = "<group>"; };
+		B6041E77863CFD22D967ACC8 /* LibraryIndexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryIndexer.swift; sourceTree = "<group>"; };
+		B7253EEE9D05A35DC1FEE30E /* TimelineScrubber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineScrubber.swift; sourceTree = "<group>"; };
+		B78EA37EB629B449704608A9 /* ShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardView.swift; sourceTree = "<group>"; };
+		B8706EF3F99498176E7578D5 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		BB16FDEDF0EC5B0F4BEDB819 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		BBCEEAE55EFC7544FC2180E8 /* OKLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OKLab.swift; sourceTree = "<group>"; };
+		BD1C0FB6FD226728B299F4BB /* AssetThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetThumbnail.swift; sourceTree = "<group>"; };
+		C2BD22E71C71667D75818281 /* EnvironmentPills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentPills.swift; sourceTree = "<group>"; };
+		D4D429AACC4137262253EDBA /* MapModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModeView.swift; sourceTree = "<group>"; };
+		D76BC3E0EA462FAA450922E2 /* GlobeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeScene.swift; sourceTree = "<group>"; };
+		DCD603932E320938999DA25D /* ColorExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtractor.swift; sourceTree = "<group>"; };
+		E22CE8FF73B5F8D637B8A8F0 /* DemoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoLibrary.swift; sourceTree = "<group>"; };
+		E84C287647945189FE3BECFF /* ChromAtlasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromAtlasTests.swift; sourceTree = "<group>"; };
+		EB05A04E7A5EDF84B8F08DF5 /* GeoMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoMath.swift; sourceTree = "<group>"; };
+		F33CDE9989C04A7BAD70F93B /* ChromaticZone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromaticZone.swift; sourceTree = "<group>"; };
+		F823AF11D28B6BC11AD82813 /* ChromAtlasTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ChromAtlasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9CE3DCAACCB089928CB93C /* cities_seed.csv */ = {isa = PBXFileReference; path = cities_seed.csv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		016D2DC403CFA3910004C2E9 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				973B0C8BE570400FC3BEA0B4 /* AssetStore.swift */,
+				62AB2827D5A4C51DDF80654B /* SQLite.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		0F29CFEA20AC72204DDA058F /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				F33CDE9989C04A7BAD70F93B /* ChromaticZone.swift */,
+				DCD603932E320938999DA25D /* ColorExtractor.swift */,
+				BBCEEAE55EFC7544FC2180E8 /* OKLab.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		286EF13620FD7715EC2862E5 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E22CE8FF73B5F8D637B8A8F0 /* DemoLibrary.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		29EE163B7C9DC458FAE2BF15 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				A1F0D0AD08CD608A6D047563 /* AssetDetailView.swift */,
+				BD1C0FB6FD226728B299F4BB /* AssetThumbnail.swift */,
+				884D8ACBFDFE1900365EB286 /* PhotoGrid.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		3EA5AA693577A37DD988010C /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				B7253EEE9D05A35DC1FEE30E /* TimelineScrubber.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		4EAABFDBB156FB590217A47F /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				1E2C05682C0389B8795F3351 /* TripEngine.swift */,
+				0843E25920706A2D097735FB /* TripModels.swift */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		504D9426C53D2C1BCAE9A335 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				B78EA37EB629B449704608A9 /* ShareCardView.swift */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		505955D7625968FCAB9D389B /* Geo */ = {
+			isa = PBXGroup;
+			children = (
+				B8706EF3F99498176E7578D5 /* Countries.swift */,
+				A4913B4BECDFF4FDA0346BCD /* GeoDatabase.swift */,
+				EB05A04E7A5EDF84B8F08DF5 /* GeoMath.swift */,
+			);
+			path = Geo;
+			sourceTree = "<group>";
+		};
+		5A4BDD6264AB8DB833ECCA46 /* Wheel */ = {
+			isa = PBXGroup;
+			children = (
+				A59A4178A35E69A0810AC670 /* ColorWheelView.swift */,
+				C2BD22E71C71667D75818281 /* EnvironmentPills.swift */,
+			);
+			path = Wheel;
+			sourceTree = "<group>";
+		};
+		5CDDE7F24330166DD7C23A1F /* Solar */ = {
+			isa = PBXGroup;
+			children = (
+				AA903FCCA4FB8B65E0ADA955 /* SolarCalculator.swift */,
+			);
+			path = Solar;
+			sourceTree = "<group>";
+		};
+		633B25CFFEA81D9BB860FE9F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3B9DD9B345CEFFDD8E6D608F /* RootView.swift */,
+				BB16FDEDF0EC5B0F4BEDB819 /* Theme.swift */,
+				29EE163B7C9DC458FAE2BF15 /* Gallery */,
+				6F5AF23094F487CA213BC6FC /* Globe */,
+				504D9426C53D2C1BCAE9A335 /* Share */,
+				3EA5AA693577A37DD988010C /* Timeline */,
+				5A4BDD6264AB8DB833ECCA46 /* Wheel */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6EC1098CE91F9693C12B0AAF /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				59E666E77A27EC1B701437C5 /* FilterState.swift */,
+				4E4B2A9CA9FA0F7FE35DB451 /* QueryEngine.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		6F5AF23094F487CA213BC6FC /* Globe */ = {
+			isa = PBXGroup;
+			children = (
+				D76BC3E0EA462FAA450922E2 /* GlobeScene.swift */,
+				380989BD6FCFEF25895A841D /* GlobeView.swift */,
+				D4D429AACC4137262253EDBA /* MapModeView.swift */,
+				53F606C095AC17250338F709 /* MilestoneHUD.swift */,
+				ABD91684121ADE97EA40D83C /* WorldOutlines.swift */,
+			);
+			path = Globe;
+			sourceTree = "<group>";
+		};
+		720C608F89861B294C9ACCCD /* ChromAtlas */ = {
+			isa = PBXGroup;
+			children = (
+				4ED33014F59AB0D230DFC4F6 /* Info.plist */,
+				8BDD00663B2F946BA941AE89 /* App */,
+				87402A4F1720ED13BEB1144A /* Core */,
+				FA2A007F2D060824FDE90D6D /* Resources */,
+				633B25CFFEA81D9BB860FE9F /* UI */,
+			);
+			path = ChromAtlas;
+			sourceTree = "<group>";
+		};
+		8229F44BC1B9AC5BEEF5F78E /* Indexing */ = {
+			isa = PBXGroup;
+			children = (
+				B6041E77863CFD22D967ACC8 /* LibraryIndexer.swift */,
+			);
+			path = Indexing;
+			sourceTree = "<group>";
+		};
+		87402A4F1720ED13BEB1144A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0F29CFEA20AC72204DDA058F /* Color */,
+				286EF13620FD7715EC2862E5 /* Demo */,
+				6EC1098CE91F9693C12B0AAF /* Filter */,
+				505955D7625968FCAB9D389B /* Geo */,
+				8229F44BC1B9AC5BEEF5F78E /* Indexing */,
+				F555ACE768319FA3BAABA8AB /* Model */,
+				5CDDE7F24330166DD7C23A1F /* Solar */,
+				016D2DC403CFA3910004C2E9 /* Store */,
+				4EAABFDBB156FB590217A47F /* Trips */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8B7C6E291068C55C6C4520EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0772F9067A55711EB8AA217B /* ChromAtlas.app */,
+				F823AF11D28B6BC11AD82813 /* ChromAtlasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BDD00663B2F946BA941AE89 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2DDB524879A9A3DFBFB12378 /* AppModel.swift */,
+				30AF45698873BF9EEAED5058 /* ChromAtlasApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F555ACE768319FA3BAABA8AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B0F3D1F9B06363667A644F8 /* AssetRecord.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F68C5A315F05E09F6DD11B57 = {
+			isa = PBXGroup;
+			children = (
+				720C608F89861B294C9ACCCD /* ChromAtlas */,
+				F95C69F5BAE25FA00B3222AC /* ChromAtlasTests */,
+				8B7C6E291068C55C6C4520EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F95C69F5BAE25FA00B3222AC /* ChromAtlasTests */ = {
+			isa = PBXGroup;
+			children = (
+				E84C287647945189FE3BECFF /* ChromAtlasTests.swift */,
+			);
+			path = ChromAtlasTests;
+			sourceTree = "<group>";
+		};
+		FA2A007F2D060824FDE90D6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DB343C1053A43807CFC45CA /* Assets.xcassets */,
+				FB9CE3DCAACCB089928CB93C /* cities_seed.csv */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E2A1AFDCA6D33546740CBF3 /* ChromAtlas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52372AD9610D115ECEFA657 /* Build configuration list for PBXNativeTarget "ChromAtlas" */;
+			buildPhases = (
+				73107134C0636EBDEFA096A5 /* Sources */,
+				FA19C7E724F5545BB3A8641C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChromAtlas;
+			packageProductDependencies = (
+			);
+			productName = ChromAtlas;
+			productReference = 0772F9067A55711EB8AA217B /* ChromAtlas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E08709DD2550FF1B2E5CD80E /* ChromAtlasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5C615ADDE0065E07DA34096 /* Build configuration list for PBXNativeTarget "ChromAtlasTests" */;
+			buildPhases = (
+				A31041712AE7D066F0685C52 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13C01983357BC9872445C1B1 /* PBXTargetDependency */,
+			);
+			name = ChromAtlasTests;
+			packageProductDependencies = (
+			);
+			productName = ChromAtlasTests;
+			productReference = F823AF11D28B6BC11AD82813 /* ChromAtlasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B6139850966FDF67D1E95FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4E2A1AFDCA6D33546740CBF3 = {
+						DevelopmentTeam = K8AWLUHZ2A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D4F7F8921C1201DD0314A604 /* Build configuration list for PBXProject "ChromAtlas" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F68C5A315F05E09F6DD11B57;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8B7C6E291068C55C6C4520EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E2A1AFDCA6D33546740CBF3 /* ChromAtlas */,
+				E08709DD2550FF1B2E5CD80E /* ChromAtlasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA19C7E724F5545BB3A8641C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE487C2955FB52B7572EEFC5 /* Assets.xcassets in Resources */,
+				9731DF2A6837485E55065A13 /* cities_seed.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73107134C0636EBDEFA096A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065680048105BC8B79985B19 /* AppModel.swift in Sources */,
+				516758EF35A3BF7F8E2168EC /* AssetDetailView.swift in Sources */,
+				879C45F09913B7480331AB10 /* AssetRecord.swift in Sources */,
+				BECE5697EC4A5247B95B6046 /* AssetStore.swift in Sources */,
+				B9DFF5CBBB7E7E0CD0AC958F /* AssetThumbnail.swift in Sources */,
+				A141C17AC4910DEF55601FB4 /* ChromAtlasApp.swift in Sources */,
+				A023B0637EB78FDC82BAADE8 /* ChromaticZone.swift in Sources */,
+				B00C15B29A82A194B6BC0AF3 /* ColorExtractor.swift in Sources */,
+				C729A6553D67FDD0B0E23B00 /* ColorWheelView.swift in Sources */,
+				2935ED2C1D5214732C659D04 /* Countries.swift in Sources */,
+				2AFC3D3F961AC2141719B0C9 /* DemoLibrary.swift in Sources */,
+				B2525362C74C016F91D6FE9C /* EnvironmentPills.swift in Sources */,
+				C2830260A1E54B4153651C94 /* FilterState.swift in Sources */,
+				B369D01D9346112CB8A147BD /* GeoDatabase.swift in Sources */,
+				53C8FF614112B10A6A557B98 /* GeoMath.swift in Sources */,
+				C1BDB51DB28139E7A9B4EC26 /* GlobeScene.swift in Sources */,
+				1E1CB10BFEE740289D78D7F2 /* GlobeView.swift in Sources */,
+				078A1E9E546915E2E3BC4B3D /* LibraryIndexer.swift in Sources */,
+				E6839E3312AE730DF3E5A828 /* MapModeView.swift in Sources */,
+				D02CED4DDD5822A3FB2AB0FF /* MilestoneHUD.swift in Sources */,
+				ABBC5B5C4E389809B61AB34B /* OKLab.swift in Sources */,
+				5D20DA2ABBF00D3F513F0A5B /* PhotoGrid.swift in Sources */,
+				AEF1CC6C9D2833107A64AE61 /* QueryEngine.swift in Sources */,
+				1ED77C80759A0FA123B8B645 /* RootView.swift in Sources */,
+				8B6DCD1C410544621303F803 /* SQLite.swift in Sources */,
+				3CCFAA22124B768CFE66CC0F /* ShareCardView.swift in Sources */,
+				2CA36B23A12F8A80C65F4971 /* SolarCalculator.swift in Sources */,
+				3808E254D98AFE7207C54BA4 /* Theme.swift in Sources */,
+				334CF3D4253B758C65B3AD00 /* TimelineScrubber.swift in Sources */,
+				785793C775D1F03DFF7497F2 /* TripEngine.swift in Sources */,
+				049151F2D6217E8A8E4DBCDC /* TripModels.swift in Sources */,
+				D0DBA3BECFD124F7884A753B /* WorldOutlines.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31041712AE7D066F0685C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6356B1225ABE851BB6B286A2 /* ChromAtlasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13C01983357BC9872445C1B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E2A1AFDCA6D33546740CBF3 /* ChromAtlas */;
+			targetProxy = 2DDC9859BCAA25B48496E8D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D59A80C85BFE9C8C70F0EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.chromatlas.ChromAtlasTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChromAtlas.app/ChromAtlas";
+			};
+			name = Release;
+		};
+		43EFD533B78B6688D4C46E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8AWLUHZ2A;
+				INFOPLIST_FILE = ChromAtlas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = app.chromatlas.ChromAtlas;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F1B06A257696C37F71590DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8AWLUHZ2A;
+				INFOPLIST_FILE = ChromAtlas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = app.chromatlas.ChromAtlas;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C79955A6B6526F49D4DB5E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.chromatlas.ChromAtlasTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChromAtlas.app/ChromAtlas";
+			};
+			name = Debug;
+		};
+		D90CB46242FF99498F08A981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCD7481E4B9748A6A09287BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5C615ADDE0065E07DA34096 /* Build configuration list for PBXNativeTarget "ChromAtlasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79955A6B6526F49D4DB5E2D /* Debug */,
+				0D59A80C85BFE9C8C70F0EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D4F7F8921C1201DD0314A604 /* Build configuration list for PBXProject "ChromAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90CB46242FF99498F08A981 /* Debug */,
+				FCD7481E4B9748A6A09287BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D52372AD9610D115ECEFA657 /* Build configuration list for PBXNativeTarget "ChromAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43EFD533B78B6688D4C46E4C /* Debug */,
+				6F1B06A257696C37F71590DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B6139850966FDF67D1E95FA /* Project object */;
+}

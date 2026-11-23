@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>ChromAtlas — Folded Atlas</title>
+  <!-- Accordion map, 3 panels 56 wide, folds at exactly 15°; one sun r50 shows through all three panels, sliced by the folds -->
+  <path fill-rule="evenodd" d="M36.00 59.01 L92.00 44.00 L92.00 196.99 L36.00 212.00 Z M78.00 128.00 A50 50 0 0 1 92.00 93.30 L92.00 162.70 A50 50 0 0 1 78.00 128.00 Z"/>
+  <path fill-rule="evenodd" d="M100.00 44.00 L156.00 59.01 L156.00 212.00 L100.00 196.99 Z M100.00 86.58 A50 50 0 0 1 156.00 86.58 L156.00 169.42 A50 50 0 0 1 100.00 169.42 Z"/>
+  <path fill-rule="evenodd" d="M164.00 59.01 L220.00 44.00 L220.00 196.99 L164.00 212.00 Z M164.00 93.30 A50 50 0 0 1 178.00 128.00 L178.00 128.00 A50 50 0 0 1 164.00 162.70 Z"/>
+</svg>

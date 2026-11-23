@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Globe r=104; day/night terminator = half-ellipses through the poles; axis tilted 23.4° (Earth's tilt) -->
+  <g transform="rotate(23.4 128 128)">
+    <path d="M128 24 A104 104 0 0 0 128 232 A44 104 0 0 0 128 24 Z"/>
+    <path d="M128 24 A104 104 0 0 1 128 232 A60 104 0 0 0 128 24 Z"/>
+  </g>
+</svg>

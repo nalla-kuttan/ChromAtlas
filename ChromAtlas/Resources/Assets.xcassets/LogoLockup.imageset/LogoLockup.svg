@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="24 24 1251.5 208" width="1251.5" height="208">
+  <title>ChromAtlas</title>
+  <path fill="#FFB861" d="M169.3 32.55 A104 104 0 0 0 86.7 223.45 A8 104 23.4 0 0 169.3 32.55Z"/>
+  <path fill="#3E6BFF" d="M169.3 32.55 A104 104 0 0 1 86.7 223.45 A36 104 23.4 0 0 169.3 32.55Z"/>
+  <g fill="#FFFFFF" transform="translate(300 76)">
+    <g transform="translate(0 0)"><path fill-rule="evenodd" d="M89.77 15.54 A51.5 51.5 0 1 0 89.77 84.46 L77.14 73.09 A34.5 34.5 0 1 1 77.14 26.91Z"/></g>
+    <g transform="translate(111.77 0)"><path fill-rule="evenodd" d="M0 0 L16 0 L16 100 L0 100Z"/><path fill-rule="evenodd" d="M64 0 L80 0 L80 100 L64 100Z"/><path fill-rule="evenodd" d="M15 43 L65 43 L65 57 L15 57Z"/></g>
+    <g transform="translate(212.77 0)"><path fill-rule="evenodd" d="M0 0 L37 0 A29 29 0 0 1 37 58 L0 58Z
+M16.0 14.5 L35 14.5 A14.5 14.5 0 0 1 35 43.5 L16.0 43.5Z"/><path fill-rule="evenodd" d="M0 0 L16 0 L16 100 L0 100Z"/><path fill-rule="evenodd" d="M30 43.5 L47.65 43.5 L74 100 L56.35 100Z"/></g>
+    <g transform="translate(304.77 0)"><path fill-rule="evenodd" d="M0 50 A51.5 51.5 0 1 0 103 50 A51.5 51.5 0 1 0 0 50Z M17 50 A34.5 34.5 0 1 1 86 50 A34.5 34.5 0 1 1 17 50Z"/></g>
+    <g transform="translate(426.77 0)"><path fill-rule="evenodd" d="M0 0 L16 0 L16 100 L0 100Z"/><path fill-rule="evenodd" d="M82 0 L98 0 L98 100 L82 100Z"/><path fill-rule="evenodd" d="M0 0 L16.6 0 L57.3 86 L40.7 86Z"/><path fill-rule="evenodd" d="M98 0 L81.4 0 L40.7 86 L57.3 86Z"/></g>
+    <g transform="translate(542.77 0)"><path fill-rule="evenodd" d="M0 100 L16.46 100 L52.23 -0 L35.77 -0Z"/><path fill-rule="evenodd" d="M88 100 L71.54 100 L35.77 -0 L52.23 -0Z"/><path fill-rule="evenodd" d="M13.23 63 L74.77 63 L79.42 76 L8.58 76Z"/></g>
+    <g transform="translate(638.77 0)"><path fill-rule="evenodd" d="M0 0 L76 0 L76 14 L0 14Z"/><path fill-rule="evenodd" d="M30 0 L46 0 L46 100 L30 100Z"/></g>
+    <g transform="translate(732.77 0)"><path fill-rule="evenodd" d="M0 0 L16 0 L16 100 L0 100Z"/><path fill-rule="evenodd" d="M0 86 L62 86 L62 100 L0 100Z"/></g>
+    <g transform="translate(808.77 0)"><path fill-rule="evenodd" d="M0 100 L16.46 100 L52.23 -0 L35.77 -0Z"/><path fill-rule="evenodd" d="M88 100 L71.54 100 L35.77 -0 L52.23 -0Z"/><path fill-rule="evenodd" d="M13.23 63 L74.77 63 L79.42 76 L8.58 76Z"/></g>
+    <g transform="translate(914.77 0)"><path fill-rule="evenodd" d="M54.86 12.07 A28.88 28.88 0 1 0 31.89 56.21 L31.07 40.73 A13.38 13.38 0 1 1 41.72 20.29Z"/><path fill-rule="evenodd" d="M28.79 40.79 A30.38 30.38 0 1 1 4.62 87.22 L17.76 79.01 A14.88 14.88 0 1 0 29.6 56.27Z"/></g>
+  </g>
+</svg>

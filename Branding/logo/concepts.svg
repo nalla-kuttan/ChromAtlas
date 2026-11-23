@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="984" viewBox="0 0 1600 984"><defs><filter id="grey"><feColorMatrix type="saturate" values="0"/></filter></defs><rect width="1600" height="984" fill="#f7f7f4"/><text x="60" y="78" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="700" fill="#161616">Logo concepts</text><text x="60" y="116" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" fill="#6b6b6b">Concepts for review — pick a direction (or tell me what you like in each).</text><rect x="60" y="150" width="474.667" height="774" rx="18" fill="#fff" stroke="#161616" stroke-width="2"/><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="90" y="190" width="414.667" height="300" preserveAspectRatio="xMidYMid meet">
+  <!-- Globe r=104; terminator band between half-ellipses rx8 and rx36 through the poles; axis tilted 23.4° -->
+  <title>ChromAtlas — Terminator</title>
+  <g transform="rotate(23.4 128 128)">
+    <path d="M128 24 A104 104 0 0 0 128 232 A8 104 0 0 0 128 24 Z"/>
+    <path d="M128 24 A104 104 0 0 1 128 232 A36 104 0 0 0 128 24 Z"/>
+  </g>
+</svg>
+</g><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 256" x="90" y="514" width="414.667" height="120" preserveAspectRatio="xMidYMid meet">
+  <!-- EXPLORATION ONLY: live <text> in Avenir Next Demi Bold; outline/custom letters before final -->
+  <g transform="translate(16 32) scale(0.75)">
+  <!-- Globe r=104; terminator band between half-ellipses rx8 and rx36 through the poles; axis tilted 23.4° -->
+  <g transform="rotate(23.4 128 128)">
+    <path d="M128 24 A104 104 0 0 0 128 232 A8 104 0 0 0 128 24 Z"/>
+    <path d="M128 24 A104 104 0 0 1 128 232 A36 104 0 0 0 128 24 Z"/>
+  </g>
+  </g>
+  <text x="236" y="163" font-family="Avenir Next" font-weight="600" font-size="100" letter-spacing="-1">Chrom<tspan font-weight="700">Atlas</tspan></text>
+</svg>
+</g><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="90" y="660" width="64" height="64" preserveAspectRatio="xMidYMid meet">
+  <!-- Globe r=104; terminator band between half-ellipses rx8 and rx36 through the poles; axis tilted 23.4° -->
+  <title>ChromAtlas — Terminator</title>
+  <g transform="rotate(23.4 128 128)">
+    <path d="M128 24 A104 104 0 0 0 128 232 A8 104 0 0 0 128 24 Z"/>
+    <path d="M128 24 A104 104 0 0 1 128 232 A36 104 0 0 0 128 24 Z"/>
+  </g>
+</svg>
+</g><text x="122" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">64px</text><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="180" y="692" width="32" height="32" preserveAspectRatio="xMidYMid meet">
+  <!-- Globe r=104; terminator band between half-ellipses rx8 and rx36 through the poles; axis tilted 23.4° -->
+  <title>ChromAtlas — Terminator</title>
+  <g transform="rotate(23.4 128 128)">
+    <path d="M128 24 A104 104 0 0 0 128 232 A8 104 0 0 0 128 24 Z"/>
+    <path d="M128 24 A104 104 0 0 1 128 232 A36 104 0 0 0 128 24 Z"/>
+  </g>
+</svg>
+</g><text x="196" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">32px</text><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="238" y="708" width="16" height="16" preserveAspectRatio="xMidYMid meet">
+  <!-- Globe r=104; terminator band between half-ellipses rx8 and rx36 through the poles; axis tilted 23.4° -->
+  <title>ChromAtlas — Terminator</title>
+  <g transform="rotate(23.4 128 128)">
+    <path d="M128 24 A104 104 0 0 0 128 232 A8 104 0 0 0 128 24 Z"/>
+    <path d="M128 24 A104 104 0 0 1 128 232 A36 104 0 0 0 128 24 Z"/>
+  </g>
+</svg>
+</g><text x="246" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">16px</text><text x="90.0" y="780" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#161616">A · Terminator</text><text x="90.0" y="808" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#161616" letter-spacing="1.5">RECOMMENDED</text><text x="90.0" y="842" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">A globe split by the day/night line — the</text><text x="90.0" y="868" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">band where golden and blue hour live,</text><text x="90.0" y="894" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">tilted to Earth&#x27;s 23.4° axis.</text><rect x="562.667" y="150" width="474.667" height="774" rx="18" fill="#fff" stroke="#e4e4e0" stroke-width="1"/><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="592.667" y="190" width="414.667" height="300" preserveAspectRatio="xMidYMid meet">
+  <title>ChromAtlas — Folded Atlas</title>
+  <!-- Accordion map, 3 panels 56 wide, folds at exactly 15°; one sun r50 shows through all three panels, sliced by the folds -->
+  <path fill-rule="evenodd" d="M36.00 59.01 L92.00 44.00 L92.00 196.99 L36.00 212.00 Z M78.00 128.00 A50 50 0 0 1 92.00 93.30 L92.00 162.70 A50 50 0 0 1 78.00 128.00 Z"/>
+  <path fill-rule="evenodd" d="M100.00 44.00 L156.00 59.01 L156.00 212.00 L100.00 196.99 Z M100.00 86.58 A50 50 0 0 1 156.00 86.58 L156.00 169.42 A50 50 0 0 1 100.00 169.42 Z"/>
+  <path fill-rule="evenodd" d="M164.00 59.01 L220.00 44.00 L220.00 196.99 L164.00 212.00 Z M164.00 93.30 A50 50 0 0 1 178.00 128.00 L178.00 128.00 A50 50 0 0 1 164.00 162.70 Z"/>
+</svg>
+</g><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 256" x="592.667" y="514" width="414.667" height="120" preserveAspectRatio="xMidYMid meet">
+  <!-- EXPLORATION ONLY: live <text> in Avenir Next Demi Bold; outline/custom letters before final -->
+  <g transform="translate(16 32) scale(0.75)">
+  <!-- Accordion map, 3 panels 56 wide, folds at exactly 15°; one sun r50 shows through all three panels, sliced by the folds -->
+  <path fill-rule="evenodd" d="M36.00 59.01 L92.00 44.00 L92.00 196.99 L36.00 212.00 Z M78.00 128.00 A50 50 0 0 1 92.00 93.30 L92.00 162.70 A50 50 0 0 1 78.00 128.00 Z"/>
+  <path fill-rule="evenodd" d="M100.00 44.00 L156.00 59.01 L156.00 212.00 L100.00 196.99 Z M100.00 86.58 A50 50 0 0 1 156.00 86.58 L156.00 169.42 A50 50 0 0 1 100.00 169.42 Z"/>
+  <path fill-rule="evenodd" d="M164.00 59.01 L220.00 44.00 L220.00 196.99 L164.00 212.00 Z M164.00 93.30 A50 50 0 0 1 178.00 128.00 L178.00 128.00 A50 50 0 0 1 164.00 162.70 Z"/>
+  </g>
+  <text x="236" y="163" font-family="Avenir Next" font-weight="600" font-size="100" letter-spacing="-1">Chrom<tspan font-weight="700">Atlas</tspan></text>
+</svg>
+</g><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="592.667" y="660" width="64" height="64" preserveAspectRatio="xMidYMid meet">
+  <title>ChromAtlas — Folded Atlas</title>
+  <!-- Accordion map, 3 panels 56 wide, folds at exactly 15°; one sun r50 shows through all three panels, sliced by the folds -->
+  <path fill-rule="evenodd" d="M36.00 59.01 L92.00 44.00 L92.00 196.99 L36.00 212.00 Z M78.00 128.00 A50 50 0 0 1 92.00 93.30 L92.00 162.70 A50 50 0 0 1 78.00 128.00 Z"/>
+  <path fill-rule="evenodd" d="M100.00 44.00 L156.00 59.01 L156.00 212.00 L100.00 196.99 Z M100.00 86.58 A50 50 0 0 1 156.00 86.58 L156.00 169.42 A50 50 0 0 1 100.00 169.42 Z"/>
+  <path fill-rule="evenodd" d="M164.00 59.01 L220.00 44.00 L220.00 196.99 L164.00 212.00 Z M164.00 93.30 A50 50 0 0 1 178.00 128.00 L178.00 128.00 A50 50 0 0 1 164.00 162.70 Z"/>
+</svg>
+</g><text x="624.667" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">64px</text><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="682.667" y="692" width="32" height="32" preserveAspectRatio="xMidYMid meet">
+  <title>ChromAtlas — Folded Atlas</title>
+  <!-- Accordion map, 3 panels 56 wide, folds at exactly 15°; one sun r50 shows through all three panels, sliced by the folds -->
+  <path fill-rule="evenodd" d="M36.00 59.01 L92.00 44.00 L92.00 196.99 L36.00 212.00 Z M78.00 128.00 A50 50 0 0 1 92.00 93.30 L92.00 162.70 A50 50 0 0 1 78.00 128.00 Z"/>
+  <path fill-rule="evenodd" d="M100.00 44.00 L156.00 59.01 L156.00 212.00 L100.00 196.99 Z M100.00 86.58 A50 50 0 0 1 156.00 86.58 L156.00 169.42 A50 50 0 0 1 100.00 169.42 Z"/>
+  <path fill-rule="evenodd" d="M164.00 59.01 L220.00 44.00 L220.00 196.99 L164.00 212.00 Z M164.00 93.30 A50 50 0 0 1 178.00 128.00 L178.00 128.00 A50 50 0 0 1 164.00 162.70 Z"/>
+</svg>
+</g><text x="698.667" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">32px</text><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="740.667" y="708" width="16" height="16" preserveAspectRatio="xMidYMid meet">
+  <title>ChromAtlas — Folded Atlas</title>
+  <!-- Accordion map, 3 panels 56 wide, folds at exactly 15°; one sun r50 shows through all three panels, sliced by the folds -->
+  <path fill-rule="evenodd" d="M36.00 59.01 L92.00 44.00 L92.00 196.99 L36.00 212.00 Z M78.00 128.00 A50 50 0 0 1 92.00 93.30 L92.00 162.70 A50 50 0 0 1 78.00 128.00 Z"/>
+  <path fill-rule="evenodd" d="M100.00 44.00 L156.00 59.01 L156.00 212.00 L100.00 196.99 Z M100.00 86.58 A50 50 0 0 1 156.00 86.58 L156.00 169.42 A50 50 0 0 1 100.00 169.42 Z"/>
+  <path fill-rule="evenodd" d="M164.00 59.01 L220.00 44.00 L220.00 196.99 L164.00 212.00 Z M164.00 93.30 A50 50 0 0 1 178.00 128.00 L178.00 128.00 A50 50 0 0 1 164.00 162.70 Z"/>
+</svg>
+</g><text x="748.667" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">16px</text><text x="592.6666666666667" y="780" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#161616">B · Folded Atlas</text><text x="592.6666666666667" y="814" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">An accordion-folded map with one sun</text><text x="592.6666666666667" y="840" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">showing through every panel: places, sliced</text><text x="592.6666666666667" y="866" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">by light.</text><rect x="1065.33" y="150" width="474.667" height="774" rx="18" fill="#fff" stroke="#e4e4e0" stroke-width="1"/><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="1095.33" y="190" width="414.667" height="300" preserveAspectRatio="xMidYMid meet">
+  <!-- A: legs slope 1:2, horizontal leg width 34; crossbar = horizon y176–198; sun r24 rises from it, 12 clear of the legs -->
+  <title>ChromAtlas — Horizon A</title>
+  <path fill-rule="evenodd" d="M128 28 L228 228 L194 228 L179 198 L77 198 L62 228 L28 228 Z M128 96 L88 176 L168 176 Z"/>
+  <path d="M104 176 A24 24 0 0 1 152 176 Z"/>
+</svg>
+</g><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 256" x="1095.33" y="514" width="414.667" height="120" preserveAspectRatio="xMidYMid meet">
+  <!-- EXPLORATION ONLY: live <text> in Avenir Next Demi Bold; outline/custom letters before final -->
+  <g transform="translate(16 32) scale(0.75)">
+  <!-- A: legs slope 1:2, horizontal leg width 34; crossbar = horizon y176–198; sun r24 rises from it, 12 clear of the legs -->
+  <path fill-rule="evenodd" d="M128 28 L228 228 L194 228 L179 198 L77 198 L62 228 L28 228 Z M128 96 L88 176 L168 176 Z"/>
+  <path d="M104 176 A24 24 0 0 1 152 176 Z"/>
+  </g>
+  <text x="236" y="163" font-family="Avenir Next" font-weight="600" font-size="100" letter-spacing="-1">Chrom<tspan font-weight="700">Atlas</tspan></text>
+</svg>
+</g><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="1095.33" y="660" width="64" height="64" preserveAspectRatio="xMidYMid meet">
+  <!-- A: legs slope 1:2, horizontal leg width 34; crossbar = horizon y176–198; sun r24 rises from it, 12 clear of the legs -->
+  <title>ChromAtlas — Horizon A</title>
+  <path fill-rule="evenodd" d="M128 28 L228 228 L194 228 L179 198 L77 198 L62 228 L28 228 Z M128 96 L88 176 L168 176 Z"/>
+  <path d="M104 176 A24 24 0 0 1 152 176 Z"/>
+</svg>
+</g><text x="1127.33" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">64px</text><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="1185.33" y="692" width="32" height="32" preserveAspectRatio="xMidYMid meet">
+  <!-- A: legs slope 1:2, horizontal leg width 34; crossbar = horizon y176–198; sun r24 rises from it, 12 clear of the legs -->
+  <title>ChromAtlas — Horizon A</title>
+  <path fill-rule="evenodd" d="M128 28 L228 228 L194 228 L179 198 L77 198 L62 228 L28 228 Z M128 96 L88 176 L168 176 Z"/>
+  <path d="M104 176 A24 24 0 0 1 152 176 Z"/>
+</svg>
+</g><text x="1201.33" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">32px</text><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="1243.33" y="708" width="16" height="16" preserveAspectRatio="xMidYMid meet">
+  <!-- A: legs slope 1:2, horizontal leg width 34; crossbar = horizon y176–198; sun r24 rises from it, 12 clear of the legs -->
+  <title>ChromAtlas — Horizon A</title>
+  <path fill-rule="evenodd" d="M128 28 L228 228 L194 228 L179 198 L77 198 L62 228 L28 228 Z M128 96 L88 176 L168 176 Z"/>
+  <path d="M104 176 A24 24 0 0 1 152 176 Z"/>
+</svg>
+</g><text x="1251.33" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">16px</text><text x="1095.3333333333335" y="780" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#161616">C · Horizon A</text><text x="1095.3333333333335" y="814" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">The A of Atlas, its crossbar a horizon with</text><text x="1095.3333333333335" y="840" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">the sun rising in the counter.</text></svg>

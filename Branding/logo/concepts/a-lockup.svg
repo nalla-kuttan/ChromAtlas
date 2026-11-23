@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 256">
+  <!-- EXPLORATION ONLY: live <text> in Avenir Next Demi Bold; outline/custom letters before final -->
+  <g transform="translate(16 32) scale(0.75)">
+  <!-- Globe r=104; terminator band between half-ellipses rx8 and rx36 through the poles; axis tilted 23.4° -->
+  <g transform="rotate(23.4 128 128)">
+    <path d="M128 24 A104 104 0 0 0 128 232 A8 104 0 0 0 128 24 Z"/>
+    <path d="M128 24 A104 104 0 0 1 128 232 A36 104 0 0 0 128 24 Z"/>
+  </g>
+  </g>
+  <text x="236" y="163" font-family="Avenir Next" font-weight="600" font-size="100" letter-spacing="-1">Chrom<tspan font-weight="700">Atlas</tspan></text>
+</svg>

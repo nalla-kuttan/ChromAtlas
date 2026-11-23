@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Accordion map, 3 panels; one sun r56 centred on the map shows through all three panels, sliced by the folds -->
+  <path fill-rule="evenodd" d="M36 60 L92 44 L92 196 L36 212 Z M72.00 132.00 A56 56 0 0 1 92.00 89.10 L92.00 174.90 A56 56 0 0 1 72.00 132.00 Z"/>
+  <path fill-rule="evenodd" d="M100 44 L156 60 L156 212 L100 196 Z M100.00 83.50 A56 56 0 0 1 156.00 83.50 L156.00 180.50 A56 56 0 0 1 100.00 180.50 Z"/>
+  <path fill-rule="evenodd" d="M164 60 L220 44 L220 196 L164 212 Z M164.00 89.10 A56 56 0 0 1 184.00 132.00 L184.00 132.00 A56 56 0 0 1 164.00 174.90 Z"/>
+</svg>

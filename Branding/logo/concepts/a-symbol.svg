@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Globe r=104; terminator band between half-ellipses rx8 and rx36 through the poles; axis tilted 23.4° -->
+  <title>ChromAtlas — Terminator</title>
+  <g transform="rotate(23.4 128 128)">
+    <path d="M128 24 A104 104 0 0 0 128 232 A8 104 0 0 0 128 24 Z"/>
+    <path d="M128 24 A104 104 0 0 1 128 232 A36 104 0 0 0 128 24 Z"/>
+  </g>
+</svg>

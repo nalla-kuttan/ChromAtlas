@@ -1,0 +1,47 @@
+name: ChromAtlas
+options:
+  bundleIdPrefix: app.chromatlas
+  deploymentTarget:
+    iOS: "18.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    ENABLE_PREVIEWS: YES
+targets:
+  ChromAtlas:
+    type: application
+    platform: iOS
+    sources:
+      - path: ChromAtlas
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.chromatlas.ChromAtlas
+        INFOPLIST_FILE: ChromAtlas/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        OTHER_LDFLAGS: "-lsqlite3"
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: K8AWLUHZ2A
+  ChromAtlasTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: ChromAtlasTests
+    dependencies:
+      - target: ChromAtlas
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: app.chromatlas.ChromAtlasTests
+schemes:
+  ChromAtlas:
+    build:
+      targets:
+        ChromAtlas: all
+        ChromAtlasTests: [test]
+    test:
+      targets:
+        - ChromAtlasTests

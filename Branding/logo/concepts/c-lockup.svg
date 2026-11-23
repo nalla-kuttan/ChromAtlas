@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 256">
+  <!-- EXPLORATION ONLY: live <text> in Avenir Next Demi Bold; outline/custom letters before final -->
+  <g transform="translate(16 32) scale(0.75)">
+  <!-- A: legs slope 1:2, horizontal leg width 34; crossbar = horizon y176–198; sun r24 rises from it, 12 clear of the legs -->
+  <path fill-rule="evenodd" d="M128 28 L228 228 L194 228 L179 198 L77 198 L62 228 L28 228 Z M128 96 L88 176 L168 176 Z"/>
+  <path d="M104 176 A24 24 0 0 1 152 176 Z"/>
+  </g>
+  <text x="236" y="163" font-family="Avenir Next" font-weight="600" font-size="100" letter-spacing="-1">Chrom<tspan font-weight="700">Atlas</tspan></text>
+</svg>

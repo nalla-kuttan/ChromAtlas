@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Accordion map: 3 panels 56 wide, 8 gaps, folds alternate ±16; one place punched through the centre panel -->
+  <path d="M36 60 L92 44 L92 196 L36 212 Z"/>
+  <path fill-rule="evenodd" d="M100 44 L156 60 L156 212 L100 196 Z M128 102 A18 18 0 1 0 128 138 A18 18 0 1 0 128 102 Z"/>
+  <path d="M164 60 L220 44 L220 196 L164 212 Z"/>
+</svg>
